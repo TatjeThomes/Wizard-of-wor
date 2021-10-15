@@ -221,7 +221,7 @@ function keyPressed() {
     } else if (player1.lastdirection === "up") {
       dy = -3;
     }
-    shots1.push(new Shots("blue", player1.x + 25, player1.y + 25, dx, dy));
+    shots1.push(new Shots("blue", player1.x, player1.y, dx, dy));
   }
 
   if (keyCode === player2.shot) {
